@@ -9,10 +9,10 @@
   color: white;
   padding: 0 20px;
   box-sizing: border-box; */
-
+  height: 100vh;
   margin-left: 80px;
   /* height: 150vh; */
-  top: 222px; 
+ 
 }
 
 .hero-title {
@@ -21,7 +21,7 @@
   font-weight: 700;
   line-height: 60.94px;
   text-align: left;
-  margin-top: 150px;
+
 }
 
 .hero-subtitle {

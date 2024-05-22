@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../../public/assets/Logo.svg";
-import Enquiry from "../../public/assets/Enquiry.svg";
-import Menu from "../../public/assets/Menu.svg";
+import Logo from "../../../public/assets/Logo.svg";
+import Enquiry from "../../../public/assets/Enquiry.svg";
+import Menu from "../../../public/assets/Menu.svg";
 
 const navLinks = [
   { name: "Home" },
