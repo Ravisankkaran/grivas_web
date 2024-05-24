@@ -20,7 +20,7 @@ function Navbar() {
       </div>
       <div className="hidden lg:flex md:flex gap-x-[55px]">
         {navLinks.map((item, index) => (
-          <a href="#" className="font-medium link-underline" key={index}>
+          <a href="#" className="font-medium link-underline text-xl" key={index}>
             {item.name}
           </a>
         ))}

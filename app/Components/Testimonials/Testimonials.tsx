@@ -3,28 +3,28 @@ import React, { useState } from 'react';
 
 const Testimonials: React.FC = () =>{
     return(
-        <div>
+        
 
-<div className="text-gray-600 dark:text-gray-300 pt-8 dark:bg-gray-900" id="reviews">
+<div className="text-black-600 dark:text-black-300 pt-8 h-screen" id="reviews">
 
     <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
 
         <div className="mb-10 space-y-4 px-6 md:px-0">
-            <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-black md:text-4xl">
+            <h2 className="text-center text-2xl font-bold text-black-800 dark:text-black md:text-4xl">
                 We have some fans
             </h2>
         </div>
 
 
-        <div className="md:columns-2 lg:columns-3 gap-8 space-y-8">
+        <div className="md:columns-2 lg:columns-3 gap-8 space-y-7">
 
 
             <div
-                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white  dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
                 <div className="flex gap-4">
                     <img className="w-12 h-12 rounded-full" src="/assets/man.png"  alt="user avatar" width="400" height="400" loading="lazy"/>
                     <div>
-                        <h6 className="text-lg font-large text-gray-700 dark:text-black">Daniella Doe</h6>
+                        <h6 className="text-lg font-bold text-black-700 dark:text-black">Daniella Doe</h6>
                     </div>
                 </div>
                 <p className="mt-8">Choosing GRIVAS Technologies for our smart home needs was the best decision we made. Their expertise in smart home automation, combined with the sleek designs of their products, has truly enhanced our daily lives. From effortless control of our lighting to the convenience of secure door locks, GRIVAS has exceeded our expectations in every way.
@@ -33,27 +33,27 @@ const Testimonials: React.FC = () =>{
                 </p>
             </div>
 
-
+{/* 
             <div
-                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white  dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
                 <div className="flex gap-4">
                     <img className="w-12 h-12 rounded-full" src="/assets/man (1).png"    alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
-                        <h6 className="text-lg font-large text-gray-700 dark:text-black">Jane doe</h6>
+                        <h6 className="text-lg font-bold text-black-700 dark:text-black">Jane doe</h6>
                        
                     </div>
                 </div>
                 <p className="mt-8"> GRIVAS Technologies has completely transformed our home into a futuristic oasis. Their smart home automation suite is not only incredibly functional but also remarkably user-friendly. We've been particularly impressed with the reliability and efficiency of their automated gate solutions. It's like living in the future, thanks to GRIVAS!
                 </p>
-            </div>
+            </div> */}
 
 
             <div
-                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white  dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
                 <div className="flex gap-4">
                     <img className="w-12 h-12 rounded-full" src="/assets/user.png" alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
-                        <h6 className="text-lg font-medium text-gray-700 dark:text-black">Yanick Doe</h6>
+                        <h6 className="text-lg font-bold text-black-700 dark:text-black">Yanick Doe</h6>
                    
                     </div>
                 </div>
@@ -63,11 +63,11 @@ const Testimonials: React.FC = () =>{
 
 
             <div
-                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white  dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
                 <div className="flex gap-4">
                     <img className="w-12 h-12 rounded-full" src="/assets/woman.png"  alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
-                        <h6 className="text-lg font-medium text-gray-700 dark:text-black">Jane Doe</h6>
+                        <h6 className="text-lg font-bold text-black-700 dark:text-black">Jane Doe</h6>
                         
                     </div>
                 </div>
@@ -79,11 +79,11 @@ const Testimonials: React.FC = () =>{
 
 
             <div
-                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white  dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
                 <div className="flex gap-4">
                     <img className="w-12 h-12 rounded-full" src="/assets/gamer.png"  alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
-                        <h6 className="text-lg font-medium text-gray-700 dark:text-black">Andy Doe</h6>
+                        <h6 className="text-lg font-bold text-black-700 dark:text-black">Andy Doe</h6>
                         
                     </div>
                 </div>
@@ -93,11 +93,11 @@ const Testimonials: React.FC = () =>{
 
 
             <div
-                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white  dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
                 <div className="flex gap-4">
                     <img className="w-12 h-12 rounded-full" src="/assets/man.png"  alt="user avatar" width="400" height="400" loading="lazy"/>
                     <div>
-                        <h6 className="text-lg font-medium text-gray-700 dark:text-black">Yanndy Doe</h6>
+                        <h6 className="text-lg font-bold text-black-700 dark:text-black">Yanndy Doe</h6>
                         
                     </div>
                 </div>
@@ -109,7 +109,7 @@ const Testimonials: React.FC = () =>{
     </div>
 </div>
   
-        </div>
+        
     );
 }
 export default Testimonials;
