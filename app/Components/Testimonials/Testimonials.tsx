@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import './Testimonials.css';
 
 const Testimonials: React.FC = () =>{
     return(
@@ -12,7 +11,7 @@ const Testimonials: React.FC = () =>{
 
         <div className="mb-10 space-y-4 px-6 md:px-0">
             <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-black md:text-4xl">
-                We have some fans.
+                We have some fans
             </h2>
         </div>
 

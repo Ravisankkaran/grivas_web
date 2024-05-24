@@ -10,7 +10,7 @@ import { FaYoutube } from 'react-icons/fa';
 function Footer() {
   return (
     <>
-    <div  className='bg-gray-50  w-full flex md:flex-row flex-col justify-around items-start p-20'>
+    <div  className='bg-gray-50  w-full flex md:flex-row flex-col justify-around items-start '>
         <div className="p-5">
             <ul>
             <p className="text-gray-800 font-bold text-3xl pb-6">
@@ -37,7 +37,7 @@ function Footer() {
         <div className='p-5'>
             <p className='text-gray-800 font-bold text-2xl mb-4'>Office</p>
             <p className='text-gray-500 text-md pb-2 font-light hover:text-orange-600 cursor-pointer'>
-            53, 1st Floor, Velachery Main Rd, Mehta Nagar,<br/>Selaiyur, Chennai, Tamil Nadu 600073
+        53, 1st Floor, Velachery Main Rd, Mehta Nagar,<br/>Selaiyur, Chennai, Tamil Nadu 600073
             </p>
         </div>
         <div className='p-5'>
@@ -50,9 +50,9 @@ function Footer() {
         </div>
       
     </div>
-    <div className='flex flex-col justify-center items-center text-center p-5 bg-gray-50'>
+    {/* <div className='flex flex-col justify-center items-center text-center  bg-gray-50'>
             <h1 className='text-gray-800 font-light'>2024 All Rights reserved</h1>
-        </div> 
+        </div>  */}
     </>  
   )
 }
