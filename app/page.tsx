@@ -11,16 +11,25 @@ import Bg from '../public/assets/bg.png';
 function Home() {
   return (
     <div className="body">
-
-
-      <Navbar />
-      <Hero />
-      <About />
-      <Slider/>
-      <Testimonials />
-      <Enquire />
-      <Footer />
-      
+      <div className="body">
+        <Navbar />
+        <div id="home">
+          <Hero />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="products">
+          <Slider />
+        </div>
+        <div id="testimonials">
+          <Testimonials />
+        </div>
+        <div id="enquire">
+          <Enquire />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }

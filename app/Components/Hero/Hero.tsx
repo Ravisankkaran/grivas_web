@@ -1,6 +1,6 @@
 import React from 'react'
 import Image  from 'next/image';
-import Girl from '../../../public/assets/WhatsApp Image 2024-05-06 at 22.15.39_6e0b3b34.jpg' 
+import Girl from '../../../public/assets/hero-ph.png' 
 function Hero() {
   return (
     <div>
@@ -15,14 +15,16 @@ function Hero() {
           <p className="mt-2 text-sm md:text-[18px]">
             Witness the latest devices in smart home transformating<br/> the way{" "}
           </p>
+           <a href="#enquire">
           <button className=" shadow-2xl text-left text-lg md:text-sm text-white rounded-md bg-gradient-to-r from-yellow-200  to-orange-500 px-12 py-3 mt-10 ">
             Get started
-          </button>{" "}
+          </button>
+          </a>
         </div>
 
         <div className="order-1 lg:order-2">
           <Image
-            className="h-80 w-80 object-cover lg:w-[500px] lg:h-[600px]"
+            className="h-100 w-80 object-cover lg:w-[500px] lg:h-[750px]"
             src={Girl}
             alt=""
           />
