@@ -5,7 +5,7 @@ const Testimonials: React.FC = () =>{
     return(
         
 
-<div className="text-black-600 dark:text-black-300 pt-8 h-screen" id="reviews">
+<div className="text-black-600 dark:text-black-300 pt-8 h-screen overflow-hidden" id="reviews">
 
     <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
 

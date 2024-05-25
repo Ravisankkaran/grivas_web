@@ -5,9 +5,9 @@ const AboutSection = () => {
   return (
     <div className="bg-gradient-to-r from-fdfcfb to-e2d1c3">
         <section className="py-20 ">
-        <div className="flex items-center justify-center w-screen h-screen px-4 sm:px-20 md:px-32 lg:px-16">
-              <div className="flex flex-wrap items-center -mx-3">
-      <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+        <div className="flex items-center justify-between w-screen h-screen px-4 sm:px-20 md:px-32 lg:px-16">
+              <div className="flex flex-wrap items-center mx-3">
+      <div className="order-2  w-full px-20 lg:w-1/2 lg:order-0">
         <div className="w-full lg:max-w-md">
           <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">We-packed with all the tools you need to succeed!</h2>
           <p className="mb-4 font-medium tracking-tight text-dark-blue-400 xl:mb-6">It's never been easier to build a business of your own. Our tools will help you with the following:</p>

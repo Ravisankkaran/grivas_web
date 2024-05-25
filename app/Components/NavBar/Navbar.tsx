@@ -11,6 +11,7 @@ const navLinks = [
   { name: "Testimonials" },
 ];
 
+// 
 function Navbar() {
   return (
     <nav className="flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-10">
@@ -28,7 +29,7 @@ function Navbar() {
       <div className="flex gap-x-5">
         <div className=" items-center flex gap-x-2">
           <Image className=" lg:hidden md:hidden" src={Enquiry} alt="Enquiry" />
-          <button className="hidden lg:block md:block bg-orange p-2 rounded-md hover:bg-charcoal">
+          <button className="hidden lg:block md:block bg-[#FF914D] p-2 rounded-md hover:bg-[#36454F]">
             <p className=" text-white font-semibold">
             Enquire Now
             </p>
